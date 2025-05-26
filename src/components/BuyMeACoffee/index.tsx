@@ -8,7 +8,7 @@ import tossIcon from '@/assets/toss_icon.svg';
 import Image from '../Image';
 import * as S from './styled';
 
-const BuyMeACoffee: React.FC = () => {
+const BuyMeACoffee = () => {
   const { site } = useStaticQuery(
     graphql`
       query {
